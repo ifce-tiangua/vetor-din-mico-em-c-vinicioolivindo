@@ -21,7 +21,7 @@ int main(){
     for(int l = 0; l < tamVetor; l++){
         printf("%d", vetor[l]);
         if(l < tamVetor-1){
-            printf(",");
+            printf(", ");
         }
     }
     printf("]");
